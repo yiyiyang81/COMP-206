@@ -1,0 +1,25 @@
+#Do not include a sh-bang (#!/bin/bash) in this script.
+#Do not write code outside of this function body
+function fname()
+{
+#check first if the input is empty
+if [[ -z $1 ]]
+then export FNAME="ERROR"
+return 1
+fi
+
+#set FNAME to input argument
+export FNAME="$1"
+
+#if the return value for pinky command is empty then username is not found
+if [[ -z `pinky -f $FNAME` ]]
+then export FNAME="NOTFOUND"
+return 0
+
+#create an array with the returned value and set the second item in the array to be the FNAME
+else
+nameline=($(pinky -f $FNAME))
+export FNAME="${nameline[1]}"
+return 0
+fi
+}
