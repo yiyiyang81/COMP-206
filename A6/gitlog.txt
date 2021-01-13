@@ -1,0 +1,29 @@
+commit f870f1f17e2d3104924b4c9d03957ddeaaabd485
+Author: Yiyi YANG <yyang192@teaching.CS.McGill.CA>
+Date:   Tue Apr 14 16:19:47 2020 -0400
+
+    Finished debugging
+
+commit ed367667a4b061f6814bbd9c6c6814a8af17c1ab
+Author: Yiyi YANG <yyang192@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 17:45:59 2020 -0400
+
+    finished version before debugging
+
+commit 1773c0050f95ecef7135cecad3f6293b269f6dd7
+Author: Yiyi YANG <yyang192@teaching.CS.McGill.CA>
+Date:   Mon Apr 13 15:45:01 2020 -0400
+
+    implemented functions in poly.c and polyapp.c
+
+commit 39a5aaad2701fc4da8b8fbaf424ad9b2bd46ac00
+Author: Yiyi YANG <yyang192@teaching.CS.McGill.CA>
+Date:   Sun Apr 12 20:21:10 2020 -0400
+
+    finished utils.c andutils.h
+
+commit abc4647d33aa9e47d781d34e0c78972027727524
+Author: Yiyi YANG <yyang192@teaching.CS.McGill.CA>
+Date:   Sat Apr 11 00:05:47 2020 -0400
+
+    initialized new assignment
